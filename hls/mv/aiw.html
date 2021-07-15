@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+    <style>
+        :root {
+            --plyr-color-main: red;
+          --plyr-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <video id="player" controls data-poster="https://www.themoviedb.org/t/p/original/lmZFxXgJE3vgrciwuDib0N8CfQo.jpg">
+        <source src="https://www.dropbox.com/s/d7g9hrtydpg4kgt/AIW.18.mp4?dl=0" type="video/mp4" />
+    </video>
+    <script src="https://cdn.plyr.io/3.6.8/plyr.polyfilled.js"></script>
+    <script>
+        const player = new Plyr('#player', {
+            controls: ['play-large', 'play', 'rewind', 'fast-forward', 'current-time', 'duration', 'progress', 'mute', 'volume', 'fullscreen'],
+            ratio: '16:9'
+        });
+    </script>
+</body>
+
+</html>
