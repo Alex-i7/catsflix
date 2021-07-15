@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+    <style>
+        :root {
+            --plyr-color-main: red;
+          --plyr-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <video id="player" controls data-poster="https://www.themoviedb.org/t/p/original/5C8bfwglg91uZhc2fbfpSjNGamV.jpg">
+        <source src="https://www.dropbox.com/s/vjllfug6qmdl0in/FS1.20.mp4?raw=1" type="video/mp4" />
+    </video>
+    <script src="https://cdn.plyr.io/3.6.8/plyr.polyfilled.js"></script>
+    <script>
+        const player = new Plyr('#player', {
+            controls: ['play-large', 'play', 'rewind', 'fast-forward', 'current-time', 'duration', 'progress', 'mute', 'volume', 'fullscreen'],
+            ratio: '16:9'
+        });
+    </script>
+</body>
+
+</html>
