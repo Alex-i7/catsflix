@@ -1,1 +1,1 @@
-document.getElementById("WIX_ADS").style.display = "none";
+document.getElementById("WIX_ADS").style.display = "";
