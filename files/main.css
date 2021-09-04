@@ -1,22 +1,3 @@
-#site-root {
-  top: 0px;
-}
-#WIX_ADS {
-  display: none;
-}
-:root{
-  --wix-ads-height: 0px;
-  --wix-ads-top-height: 0px;
-}
-#SITE_CONTAINER {
-  top: -50px;
-}
-#SITE_PAGES {
-  padding-bottom: 50px;
-}
-button:focus {
-  outline:0;
-}
 button._2rBmt.RX53l._Wtcz[data-hook='share_profile'] {
   display: none;
 }
@@ -31,19 +12,4 @@ div.s22nOl {
 }
 div.sIq8Tb {
   display: none;
-}
-::-webkit-scrollbar {
-  width: 13px;
-}
-::-webkit-scrollbar-track {
-  background: #000; 
-}
-::-webkit-scrollbar-thumb {
-  background: #303030; 
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #444444; 
-}
-::-webkit-scrollbar-corner {
-  background: #000; 
 }
