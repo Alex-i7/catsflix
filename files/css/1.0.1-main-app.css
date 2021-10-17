@@ -1,0 +1,56 @@
+#site-root {
+    top: 0px;
+}
+#WIX_ADS {
+    display: none;
+}
+:root{
+    --wix-ads-height: 0px;
+    --wix-ads-top-height: 0px;
+}
+#main_MF {
+    background: black;
+}
+  button:focus {
+    outline:0;
+}
+a, abbr, acronym, address, applet, b, big, blockquote, body, button, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, nav, object, ol, p, pre, q, s, samp, section, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var {
+     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+     user-select: none;
+}
+button._2rBmt.RX53l._Wtcz[data-hook='share_profile'] {
+    display: none;
+}
+button._2rBmt.RX53l._Wtcz[data-hook='edit'] {
+    display: none;
+}
+div.kluk1 {
+    display: none;
+}
+label._3nZFR {
+    display: none;
+}
+button#coverPhotoInput {
+    display: none;
+}
+div._2diJK._2kfEz[data-hook='ProfileCard-coverWrapper'] {
+    pointer-events: none;
+}
+div.wrapper.small.name-icon.pointer {
+    pointer-events: none;
+}
+button._1N5G0.rCNdV[data-hook='ProfileCard-moreActionsCTA'] {
+    display: none;
+}
+button._2rBmt.Lz3BV._14afr._1ZpbX._2mJxG[data-hook='ProfileCard-viewPubLicProfileCTA'] {
+    display: none;
+}
+button._2rBmt._3XtFB._2mJxG._2yM-i[data-hook='ProfileCard-followCTA'] {
+    display: none;
+}
+div.s22nOl {
+    display: none;
+}
+div.sIq8Tb {
+    display: none;
+}
